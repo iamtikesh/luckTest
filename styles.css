@@ -7,8 +7,7 @@
 .dice {
   text-align: center;
   display: inline-block;
-  margin:0 2%;
-
+  margin: 0 2%;
 }
 
 body {
@@ -35,12 +34,13 @@ p {
   font-size: 2.5rem;
   font-family: 'Montserrat', cursive;
 }
+
 img {
   width: 80%;
 }
 
 footer {
-  margin-top: 5%;
+  margin-top: 8%;
   color: #EEEEEE;
   text-align: center;
   font-family: 'Ubuntu', cursive;
@@ -49,7 +49,6 @@ footer {
 .foot {
   font-size: 1.5rem;
 }
-
 
 .form-control {
   padding: 4% 10%;
@@ -60,6 +59,8 @@ footer {
 .container-fluid {
   padding: 5% 15%;
   text-align: center;
+  margin-top: 15%;
+  margin-bottom: 10%;
 }
 
 .check {
@@ -68,10 +69,8 @@ footer {
 }
 
 .foot {
-  margin:3% auto 0;
+  margin: 3% auto 0;
   background-color: #343a40;
-
-
 }
 
 .visible {
@@ -80,14 +79,15 @@ footer {
 
 @media (max-width:1000px) {
   .container-fluid {
-    padding-top:5%;
+    padding-top: 5%;
     text-align: center;
-
   }
+
   .form-control, .btn {
     font-size: 2rem;
     text-align: center;
   }
+
   .container {
     width: 90%;
     margin: auto;
