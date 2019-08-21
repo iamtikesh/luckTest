@@ -1,4 +1,7 @@
 // Tikeshwar Deep
+//var first = Math.random();
+//var second = Math.random();
+
 
 var first = Math.random();
 var second = Math.random();
