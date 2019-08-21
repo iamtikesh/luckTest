@@ -1,3 +1,5 @@
+/* Tikeshwar Deep */
+
 .container {
   width: 60%;
   margin: auto;
@@ -18,22 +20,19 @@ h1 {
   margin: 30px;
   font-family: 'Livvic', sans-serif;
   text-shadow: 5px 0 #232931;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #fff;
   text-align: center;
   padding-left: 2%;
 }
 
 p {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
   font-family: 'Livvic', cursive;
 }
 
-#refresh-me {
-  font-size: 2.5rem;
-  font-family: 'Montserrat', cursive;
-}
+
 
 img {
   width: 80%;
@@ -44,15 +43,15 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Ubuntu', cursive;
+
 }
 
-.foot {
-  font-size: 1.5rem;
-}
+
 
 .form-control {
   padding: 4% 10%;
   margin: 3% 0;
+  margin-bottom: 10%;
   font-family: 'Ubuntu', cursive;
 }
 
@@ -69,8 +68,10 @@ footer {
 }
 
 .foot {
+  font-size: 1.5rem;
   margin: 3% auto 0;
   background-color: #343a40;
+  line-height: 1.5;
 }
 
 .visible {
@@ -79,6 +80,7 @@ footer {
 
 @media (max-width:1000px) {
   .container-fluid {
+    padding: 0;
     padding-top: 5%;
     text-align: center;
   }
@@ -90,6 +92,8 @@ footer {
 
   .container {
     width: 90%;
+    padding-left: 0;
+    padding-right: 0;
     margin: auto;
     text-align: center;
   }
