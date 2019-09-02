@@ -15,7 +15,7 @@ second = Math.floor(second) + 1;
 function test() {
    var userName = document.getElementById('a').value;
    var userName2 = document.getElementById('b').value;
-  if(a===b){first=second;}
+  if(userName===userName2){first=second;}
   if (first > second) {
     document.getElementById("user1").innerHTML =""+ userName +" , You are more luckier than your friend  "+userName2+" ";
   }
