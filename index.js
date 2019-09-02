@@ -15,9 +15,9 @@ second = Math.floor(second) + 1;
 function test() {
    var userName = document.getElementById('a').value;
    var userName2 = document.getElementById('b').value;
-  if(a===b){second=first;}
+  if(a===b){first=second;}
   if (first > second) {
-    document.getElementById("user1").innerHTML =""+ userName +" , You are Lucky than your friend  "+userName2+" ";
+    document.getElementById("user1").innerHTML =""+ userName +" , You are more luckier than your friend  "+userName2+" ";
   }
 
   if (second > first) {
